@@ -13,7 +13,7 @@ namespace Tyuiu.KaverinED.Sprint3.Task0.V18
         {
             Console.WriteLine("Каверин ЕД ИИПБ-23-3");
             DataService ds = new DataService();
-            Console.WriteLine(ds.GetSumSeries(1, 6));
+            Console.WriteLine((ds.GetSumSeries(1, 6)).ToString("0.000"));
             Console.ReadLine();
         }
     }

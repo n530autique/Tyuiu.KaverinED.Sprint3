@@ -17,7 +17,7 @@ namespace Tyuiu.KaverinED.Sprint3.Task0.V18.Lib
             {
                 res *= Math.Pow((2 / (Math.Cos(1) + 0.5)), i);
             }
-            return Math.Round(res, 3);
+            return res;
         }
     }
 }
